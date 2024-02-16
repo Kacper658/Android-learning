@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Ile paliwa spali?</string>
+    <string name="first_number">Spalanie</string>
+    <string name="second_number">Odległość</string>
+    <string name="top_text">Oblicz ile paliwa spali twój pojazd</string>
+    <string name="kilometers">Kilometrów</string>
+    <string name="result">litrów</string>
+    <string name="submit">Oblicz</string>
+</resources>

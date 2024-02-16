@@ -1,5 +1,10 @@
 <resources>
-    <string name="app_name">AnApp</string>
-    <string name="first_number">Number</string>
-    <string name="second_number">Number2</string>
+    <string name="app_name">How much fuel?</string>
+    <string name="first_number">Fuel usage</string>
+    <string name="second_number">Distance</string>
+    <string name="top_text">Count how much fuel will your vehicle burn</string>
+    <string name="liters" translatable="false">l/100km</string>
+    <string name="kilometers">Kilometers</string>
+    <string name="result">liters</string>
+    <string name="submit">Count</string>
 </resources>

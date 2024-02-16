@@ -26,8 +26,10 @@ public class MainActivity extends AppCompatActivity {
 
     }
     public void button1Clicked(View v) {
-        int number1 = Integer.parseInt(e1.getText().toString());
-        int number2 = Integer.parseInt(e2.getText().toString());
-        t1.setText(String.valueOf(number1 * number2));
+        double number1 = Double.parseDouble(e1.getText().toString());
+        double number2 = Double.parseDouble(e2.getText().toString());
+        double consumption = number1/100*number2;
+        t1.setText(String.valueOf(consumption) + " " + t1.getText().toString());
+        t1.setVisibility(View.VISIBLE);
     }
 }
