@@ -6,4 +6,5 @@
     <string name="kilometers">Kilometrów</string>
     <string name="result">litrów</string>
     <string name="submit">Oblicz</string>
+    <string name="error">Proszę wypełnić to pole.</string>
 </resources>

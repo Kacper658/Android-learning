@@ -7,4 +7,5 @@
     <string name="kilometers">Kilometers</string>
     <string name="result">liters</string>
     <string name="submit">Count</string>
+    <string name="error">Please fulfill this area.</string>
 </resources>
