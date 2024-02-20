@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <style name="warning_text">
+        <item name="android:textColor">#DD2C00</item>
+        <item name="android:visibility">invisible</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="form_text_edit">
+        <item name="android:textColorHint">#546E7A</item>
+    </style>
+</resources>

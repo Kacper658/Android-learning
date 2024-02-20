@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
         if (!e1.getText().toString().isEmpty() && !e2.getText().toString().isEmpty()) {
             double number1 = Double.parseDouble(e1.getText().toString());
             double number2 = Double.parseDouble(e2.getText().toString());
-            double consumption = number1/100*number2;
+            double consumption = Math.floor(number1/100*number2*100)/100;
             t1.setText(String.valueOf(consumption) + " " + getText(R.string.result));
             t1.setVisibility(View.VISIBLE);
         } else if (!e1.getText().toString().isEmpty()) {
